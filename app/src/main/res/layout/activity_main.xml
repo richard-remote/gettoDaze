@@ -10,12 +10,17 @@
         android:layout_width="match_parent"/>
 
     <EditText
-        android:id="@+id/username"
+        android:id="@+id/input"
         android:inputType="text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Ex: MA 02134"
         android:onClick="press"/>
+    <TextView
+        android:id="@+id/responseText"
+        android:text=""
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
 </LinearLayout>
 
 <!--
