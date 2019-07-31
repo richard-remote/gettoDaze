@@ -1,4 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="Please enter a zip code below"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+
+    <EditText
+        android:id="@+id/username"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ex: MA 02134" />
+</LinearLayout>
+
+<!--
+7-31 Edited out actual activity_main.xml for testing
+        Added TextView and EditText to test how the Popup will render
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -8,17 +30,15 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-
-<TextView 
-        android:background="#000000"
-        android:onClick="touch"
-        android:gravity="center"
-        android:id="@+id/textView1"
+    <TextView
+        android:id="@+id/textview_username"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:text="empty"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textColor="#FFFF00" />
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Click here"
+        android:textSize="20pt" />
 </LinearLayout>
+-->
+
+
