@@ -14,7 +14,8 @@
         android:inputType="text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Ex: MA 02134" />
+        android:hint="Ex: MA 02134"
+        android:onClick="press"/>
 </LinearLayout>
 
 <!--
