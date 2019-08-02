@@ -36,24 +36,14 @@ public class MainActivity extends Activity implements OnKeyListener{
                         event.getKeyCode() == KeyEvent.KEYCODE_ENTER) {
 
             if (!event.isShiftPressed()) {
-                Log.v("AndroidEnterKeyActivity","Enter Key Pressed!");
-                //if
-                /*
                 switch (view.getId()) {
-                    case R.id.editText:
-                        responseText
-                                .setText("Just pressed the ENTER key, " +
-                                        "focus was on Text Box1. " +
+                    case R.id.input:
+                        if (myEditText.getText().toString().equals("black"))
+                            responseText
+                                .setText("IT WORKS" +
                                         "You typed:\n" + myEditText.getText());
-                        break;
-                    case R.id.editText2:
-                        responseText
-                                .setText("Just pressed the ENTER key, " +
-                                        "focus was on Text Box2. " +
-                                        "You typed:\n" + myEditText.getText());
-                        break;
+                    break;
                 }
-                */
                 return true;
             }
 
@@ -61,4 +51,5 @@ public class MainActivity extends Activity implements OnKeyListener{
         return false; // pass on to other listeners.
 
     }
+
 }
